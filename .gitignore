@@ -54,3 +54,27 @@ build-iPhoneSimulator/
 
 # Used by RuboCop. Remote config files pulled in from inherit_from directive.
 # .rubocop-https?--*
+
+# Ignore dictionary file if you plan to download it dynamically
+/lib/dictionary.txt
+
+# Ignore saved game files
+saved_games/
+
+# Ignore Ruby backup files
+*.bak
+*.swp
+
+# Ignore compiled Ruby files
+*.rbc
+
+# Ignore IRB history
+.irb_history
+
+# Ignore logs and temporary files
+/log/
+/tmp/
+
+# Ignore VSCode settings (if you're using VSCode)
+.vscode/
+
